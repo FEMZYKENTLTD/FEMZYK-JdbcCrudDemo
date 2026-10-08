@@ -1,0 +1,65 @@
+/* Stylesheet for the FEMZYK JDBC CRUD Demo GUI (JavaFX). */
+
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #eef2f7, #d9e4f2);
+    -fx-font-family: "Segoe UI", "DejaVu Sans", sans-serif;
+    -fx-font-size: 13px;
+}
+
+.header-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f4e79;
+}
+
+.header-sub {
+    -fx-font-size: 12px;
+    -fx-text-fill: #5a6b7f;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 14 16 14 16;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.12), 8, 0.1, 0, 3);
+}
+
+.section-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f4e79;
+}
+
+.error {
+    -fx-text-fill: #dc2626;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.result {
+    -fx-text-fill: #065f46;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #1f4e79;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-padding: 5 12 5 12;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #17395a;
+}
+
+.table-view {
+    -fx-background-radius: 6;
+}
+
+.text-field {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
