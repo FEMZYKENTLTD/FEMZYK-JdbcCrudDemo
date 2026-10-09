@@ -1,0 +1,21 @@
+# Maven build output
+target/
+
+# Embedded database files (regenerated at runtime)
+data/
+output/
+
+# Compiled bytecode
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS files
+.DS_Store
+Thumbs.db
